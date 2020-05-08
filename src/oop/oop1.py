@@ -20,7 +20,7 @@
 
 
 # Vehicle is the base class
-class Vehicle:
+class Vehicle():
     pass
 
 class GroundVehicle(Vehicle):
