@@ -73,3 +73,5 @@ print("Square root of ages:")
 import math
 h = [name.age ** 2 for name in humans]
 print(h)
+
+# making comment to commit and push. New Github and VS code issues
