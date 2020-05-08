@@ -65,13 +65,13 @@ print(f)
 # list, except with all the names uppercase and the ages with 5 added to them.
 # The "humans" list should be unmodified.
 print("All names uppercase:")
-g = [(name.name.upper(), name.age + 5) for name in humans]
+g = [Human((name.name.upper()), name.age + 5) for name in humans]
 print(g)
 
 # Write a list comprehension that contains the square root of all the ages.
 print("Square root of ages:")
 import math
-h = [name.age ** 2 for name in humans]
+h = [math.sqrt(name.age) for name in humans]
 print(h)
 
 # making comment to commit and push. New Github and VS code issues
